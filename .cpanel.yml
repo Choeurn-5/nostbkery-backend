@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nostbakery/manage.nostbakery.com/
+    - /bin/cp -R * $DEPLOYPATH
